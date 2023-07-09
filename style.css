@@ -1,0 +1,76 @@
+/* shared syle */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    padding: 13px 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+    padding: 13px 20px;
+    font-weight: 700;
+    border: 0;
+}
+span{
+    color: orangered;
+}
+
+/* nav syle */
+nav {
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* banner styhle */
+
+.banner {
+
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(123, 123, 123, 0.526), rgba(0, 0, 0, 0.501));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.banner-des{
+
+    width: 500px;
+    padding: 18px 0px;
+}
